@@ -1,6 +1,8 @@
 # MathData24
 Notes for class
 
+<img src="https://www.fau.edu/newsdesk/images/florida-atlantic-university-entrance-sign-landmark.jpg">
+
 ## Notes
 
 # H1
