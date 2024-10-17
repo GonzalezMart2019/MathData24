@@ -1,36 +1,91 @@
+/* Universal Styles */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    background: linear-gradient(135deg, #001f3f, #0056b3, #00aaff);
+    background-size: 300% 300%;
+    animation: gradient-animation 10s infinite alternate;
+    overflow: hidden;
+}
+
+/* Animate background gradient */
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .welcome {
-    background-color: white;
+    background-color: rgba(0, 15, 36, 0.85); /* Transparent dark blue background */
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
 }
 
+/* Robot Image Styling */
 .robot-image {
-    width: 200px;
+    width: 250px;
     height: auto;
+    margin: 0 auto 20px auto;
+    filter: drop-shadow(0 0 20px cyan);
+    transition: transform 0.5s ease;
 }
 
+.robot-image:hover {
+    transform: scale(1.1);
+}
+
+/* Futuristic Button */
 .details-link {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #007bff, #00d4ff);
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 183, 255, 0.75);
+    transition: background 0.3s, transform 0.3s;
 }
 
 .details-link:hover {
-    background-color: #0056b3;
+    background: linear-gradient(135deg, #0056b3, #00aaff);
+    transform: scale(1.1);
 }
+
+/* Section Titles */
+h1, h2 {
+    color: #00d4ff;
+    text-shadow: 0 0 10px cyan;
+}
+
+/* Paragraph Text */
+p {
+    color: white;
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
