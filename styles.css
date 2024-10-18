@@ -5,14 +5,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Orbitron', sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
-    flex-direction: column; /* Stacks elements vertically */
-    align-items: center; /* Aligns elements horizontally */
+    flex-direction: column;  /* Ensure vertical stacking */
+    justify-content: flex-start;  /* Align items at the top */
+    align-items: center;  /* Center horizontally */
     background: linear-gradient(135deg, #001f3f, #0056b3, #00aaff);
     background-size: 300% 300%;
     animation: gradient-animation 10s infinite alternate;
-    overflow-x: hidden;
+    overflow: auto;  /* Allow scrolling if content overflows */
 }
 
 /* Animate background gradient */
@@ -23,14 +24,14 @@ body {
 }
 
 .welcome {
-    background-color: rgba(0, 15, 36, 0.85); /* Transparent dark blue */
+    background-color: rgba(0, 15, 36, 0.85); /* Transparent dark blue background */
     padding: 40px;
-    margin: 20px 0; /* Add space between sections */
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
     text-align: center;
     width: 80%;
     max-width: 600px;
+    margin-top: 20px;  /* Add some space between elements */
 }
 
 /* Robot Image Styling */
@@ -71,37 +72,24 @@ body {
 h1, h2 {
     color: #00d4ff;
     text-shadow: 0 0 10px cyan;
-    margin: 10px 0;
+    margin-top: 20px;  /* Add spacing between sections */
 }
 
 /* Paragraph Text */
 p {
     color: white;
     line-height: 1.6;
-    margin: 10px 0;
-    text-align: center;
-}
-
-/* Section Styling */
-section {
-    width: 80%;
-    max-width: 600px;
-    background-color: rgba(0, 15, 36, 0.85);
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    margin-top: 10px;  /* Ensure paragraphs have space */
 }
 
 /* Footer Styling */
 footer {
+    margin-top: auto;  /* Push the footer to the bottom */
     width: 100%;
     text-align: center;
     color: white;
     font-size: 12px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    position: relative;
-    margin-top: auto; /* Pushes footer to the bottom if content is short */
+    padding: 10px 0;
 }
 
