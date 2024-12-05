@@ -7,7 +7,7 @@
 
 [Youtube](https://youtu.be/aCf-H8Wi_Po)
 
-<img src=""C:\Users\mjgon\Downloads\-QHxCRKHRdv44HW6MdmIs.jpg"">
+[logo](https://github.com/GonzalezMart2019/MathData24/blob/main/Vigilant_logo.jpg?raw=true)
 
 ## Notes
 
