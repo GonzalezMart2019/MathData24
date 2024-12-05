@@ -7,7 +7,10 @@
 
 [Youtube](https://youtu.be/aCf-H8Wi_Po)
 
-![Logo](https://github.com/GonzalezMart2019/MathData24/blob/main/Vigilant_logo.jpg?raw=true)
+<div align="center">
+  <img src="https://github.com/GonzalezMart2019/MathData24/blob/main/Vigilant_logo.jpg?raw=true" alt="Logo" />
+</div>
+
 
 
 # H1
