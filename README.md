@@ -3,9 +3,9 @@
 
 [Pitchdeck](https://docs.google.com/presentation/d/16pbSuzC6Wp2ZkxyuosTLc6Kpmk0g50Oopt7XGmobqLE/edit#slide=id.g31c3eab4681_2_38)
 
-[Youtube](https://youtu.be/aCf-H8Wi_Po)
+[Website](https://tinyurl.com/VigilantAI)
 
-[Website](https://gonzalezmart2019.github.io/MathData24/)
+[Youtube](https://youtu.be/aCf-H8Wi_Po)
 
 <img src="https://www.fau.edu/newsdesk/images/florida-atlantic-university-entrance-sign-landmark.jpg">
 
